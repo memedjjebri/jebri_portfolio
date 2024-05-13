@@ -48,9 +48,9 @@ function App() {
                   </h1>
 
                   <p>
-                    Un outil simple et pratique qui permet aux
-                    utilisateurs de calculer leur âge en années, mois et jours
-                    en fonction de leur date de naissance.
+                    Un outil simple et pratique qui permet aux utilisateurs de
+                    calculer leur âge en années, mois et jours en fonction de
+                    leur date de naissance.
                   </p>
                   <h1>
                     <h1>
@@ -66,7 +66,7 @@ function App() {
                       Retrace les événements clés de l'histoire via une frise
                       interactive.
                     </p>
-                     Lien :
+                    Lien :
                     <a
                       class="custom-link"
                       href="https://new-portfolio-jebri-mohamed.netlify.app/"
