@@ -3,8 +3,8 @@ const FooterComp = () => {
     <>
       <footer>
         <p>
-          Mon Portfolio / Jebri Mohamed, All Right Reserved &copy; Mai
-          2024
+          @ {new Date().getFullYear()} / / All Right Reserved . Made by JEBRI
+          Mohamed
         </p>
       </footer>
     </>

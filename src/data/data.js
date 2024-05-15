@@ -1,3 +1,5 @@
+
+
 export const projects = [
   {
     id: 1,
@@ -24,6 +26,14 @@ export const projects = [
     title: "Globe Guide",
     description:
       "Globe Guide est une application de voyage que nous avons développée pour aider les utilisateurs à découvrir de nouvelles destinations et à planifier leurs voyages. Cette application utilisait des technologies web avancées telles que React et des API de meteo,change devise et jours feriées pour offrir une interface conviviale où les utilisateurs pouvaient rechercher des destinations, explorer des attractions locales, et créer des itinéraires personnalisés pour leurs voyages.",
+  },
+  {
+    id: 4,
+    image: "",
+    title: "Age Calculator",
+
+    description:
+      "L'application de calculateur d'âge est une interface conviviale permettant aux utilisateurs de saisir leur date de naissance pour obtenir instantanément leur âge en années, mois et jours. Elle offre une expérience utilisateur simple et intuitive, avec une conception attrayante et une fonctionnalité de navigation claire.",
   },
 ];
 
