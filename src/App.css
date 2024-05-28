@@ -197,7 +197,7 @@ aside .contacts .contact-item span {
 }
 
 aside .contacts .contact-item span a {
-  color:white;
+  color: white;
 }
 
 aside .section p {
@@ -254,6 +254,33 @@ aside .section .education-item span {
 
 aside .section .language-item {
   margin: 15px 0;
+}
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Espace entre les logos */
+  padding: 20px;
+  background-color: #f8f9fa; /* Couleur de fond */
+}
+
+.logos img {
+  width: 80px; /* Largeur des logos */
+  height: 80px; /* Hauteur des logos */
+  object-fit: contain;
+  transition: transform 0.3s ease; /* Transition pour l'effet de zoom */
+}
+
+.logos img:hover {
+  transform: scale(1.1); /* Effet de zoom au survol */
+}
+
+/* Pour les petits écrans */
+@media (max-width: 600px) {
+  .logos img {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 aside .section .language-item .full {

@@ -29,7 +29,7 @@ function App() {
               </article>
             </section>
             <section className="projects">
-              <h2>Mes recents projets</h2>
+              <h2>Mes projets recents</h2>
               <article>
                 <img
                   className="featured-img"
@@ -51,6 +51,21 @@ function App() {
                     Un outil simple et pratique qui permet aux utilisateurs de
                     calculer leur âge en années, mois et jours en fonction de
                     leur date de naissance.
+                  </p>
+                  <h1>
+                    Lien :
+                    <a
+                      class="custom-link"
+                      href="https://code-nature.netlify.app/"
+                    >
+                      Code Nature
+                    </a>
+                  </h1>
+
+                  <p>
+                    Site dédié aux parcs nationaux de France ! Explorez la
+                    nature sauvage, admirez des paysages époustouflants et une
+                    flore exceptionnelle.
                   </p>
                   <h1>
                     <h1>
@@ -79,7 +94,6 @@ function App() {
                     expérience fluide.
                   </p>
                   <h1>
-                    {" "}
                     Lien :
                     <a
                       class="custom-link"

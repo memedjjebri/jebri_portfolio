@@ -1,10 +1,11 @@
-
-
+import Age from "../assets/images/age.png";
+import Code from "../assets/images/code-nature.png";
+import Globe from "../assets/images/globe-guide.png";
+import Gopast from "../assets/images/go-past.png";
 export const projects = [
   {
     id: 1,
-    image:
-      "https://histoiregeolesto.weebly.com/uploads/8/7/4/9/87493018/frise-p-h_1.png",
+    image: Gopast,
     title: "Frise chronologique : histoire de l'humanité.",
 
     description:
@@ -21,19 +22,26 @@ export const projects = [
   },
   {
     id: 3,
-    image:
-      "https://cdn.pixabay.com/photo/2016/10/22/18/52/beach-1761410_640.jpg",
+    image: Globe,
     title: "Globe Guide",
     description:
       "Globe Guide est une application de voyage que nous avons développée pour aider les utilisateurs à découvrir de nouvelles destinations et à planifier leurs voyages. Cette application utilisait des technologies web avancées telles que React et des API de meteo,change devise et jours feriées pour offrir une interface conviviale où les utilisateurs pouvaient rechercher des destinations, explorer des attractions locales, et créer des itinéraires personnalisés pour leurs voyages.",
   },
   {
     id: 4,
-    image: "",
+    image: Age,
     title: "Age Calculator",
 
     description:
       "L'application de calculateur d'âge est une interface conviviale permettant aux utilisateurs de saisir leur date de naissance pour obtenir instantanément leur âge en années, mois et jours. Elle offre une expérience utilisateur simple et intuitive, avec une conception attrayante et une fonctionnalité de navigation claire.",
+  },
+  {
+    id: 5,
+    image: Code,
+    title: "Code nature",
+
+    description:
+      "Site dédié aux parcs nationaux de France ! Explorez la nature sauvage, admirez des paysages époustouflants et une flore exceptionnelle. Que vous soyez randonneur, photographe ou en quête de tranquillité, trouvez ici toutes les ressources pour planifier votre prochaine aventure",
   },
 ];
 

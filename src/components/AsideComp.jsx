@@ -6,6 +6,18 @@ import {
 } from "@ant-design/icons";
 import { educations } from "../data/data";
 
+import CssLogo from "../assets/images/css.png";
+import ReactLogo from "../assets/images/react.png";
+import HtmlLogo from "../assets/images/html.png";
+import JsLogo from "../assets/images/js.png";
+import GitLogo from "../assets/images/git.png";
+import GithubLogo from "../assets/images/github.png";
+import SassLogo from "../assets/images/sass.png";
+import TailwindLogo from "../assets/images/tailwind.png";
+import MysqlLogo from "../assets/images/mysql.png";
+import FigmaLogo from "../assets/images/figma.png";
+
+import NodeLogo from "../assets/images/node.png";
 const AsideComp = () => {
   return (
     <>
@@ -62,13 +74,26 @@ const AsideComp = () => {
               </div>
             </div>
             <div className="skill">
-              <span>HTML, CSS, SCSS</span>
+              <span>HTML, CSS, SCSS,Tailwind</span>
               <div className="full">
                 <div className="percent third"></div>
               </div>
             </div>
             <div className="skill">
               <div className="full"></div>
+            </div>
+            <div className="logos">
+              <img src={HtmlLogo} alt="" />
+              <img src={CssLogo} alt="" />
+              <img src={NodeLogo} alt="" />
+              <img src={JsLogo} alt="" />
+              <img src={ReactLogo} alt="" />
+              <img src={SassLogo} alt="" />
+              <img src={TailwindLogo} alt="" />
+              <img src={GitLogo} alt="" />
+              <img src={GithubLogo} alt="" />
+              <img src={MysqlLogo} alt="" />
+              <img src={FigmaLogo} alt="" />
             </div>
           </div>
         </div>
