@@ -14,7 +14,7 @@ function App() {
           <div className="left">
             <section className="about">
               <article>
-                <h2>A propos de moi</h2>
+                <h1>A propos de moi</h1>
                 <p>
                   Un développeur web junior en formation, passionné du web et
                   des technologies numériques, motivé à acquérir les compétences
@@ -37,71 +37,72 @@ function App() {
                   alt="slug"
                 />
                 <div className="project-info">
-                  <h1>
+                  <h3>
                     Lien :
                     <a
-                      class="custom-link"
+                      className="custom-link"
                       href="https://age-calculator-jebri-app.netlify.app/"
                     >
                       Age Calculator
                     </a>
-                  </h1>
+                  </h3>
 
                   <p>
                     Un outil simple et pratique qui permet aux utilisateurs de
                     calculer leur âge en années, mois et jours en fonction de
                     leur date de naissance.
                   </p>
-                  <h1>
+                  <h3>
                     Lien :
                     <a
-                      class="custom-link"
+                      className="custom-link"
                       href="https://code-nature.netlify.app/"
                     >
                       Code Nature
                     </a>
-                  </h1>
+                  </h3>
 
                   <p>
                     Site dédié aux parcs nationaux de France ! Explorez la
                     nature sauvage, admirez des paysages époustouflants et une
                     flore exceptionnelle.
                   </p>
-                  <h1>
-                    <h1>
+                  <h3>
+                    
                       Lien :
                       <a
-                        class="custom-link"
+                        className="custom-link"
                         href="https://moonlow31.github.io/Projet-Chrono/"
                       >
                         Frise chronologique
                       </a>
-                    </h1>
+                   </h3>
                     <p>
                       Retrace les événements clés de l'histoire via une frise
                       interactive.
                     </p>
+                    <h3>
                     Lien :
                     <a
-                      class="custom-link"
+                      className="custom-link"
                       href="https://new-portfolio-jebri-mohamed.netlify.app/"
                     >
                       Portfolio
                     </a>
-                  </h1>
+                  </h3>
                   <p>
                     Met en avant parcours, compétences et projets avec une
                     expérience fluide.
                   </p>
-                  <h1>
+                  <h3>
                     Lien :
                     <a
-                      class="custom-link"
+                      className="custom-link"
                       href="https://globe-guide.netlify.app/"
                     >
                       Globe Guide
                     </a>
-                  </h1>
+                  </h3>
                   <p>
                     Aide à découvrir et planifier des voyages avec une interface
                     conviviale.
